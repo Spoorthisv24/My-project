@@ -1,0 +1,73 @@
+CSS
+.small {
+  color:red;
+}
+.large.small {
+  color:orange;
+  font-size:18px;
+}
+#highlight{
+  background:lightblue;
+}
+*{
+  color : purple;
+}
+h1{
+  color: blue;
+}
+
+
+HTML
+
+<h1 id="highliaght">School</h1>
+<p class="small">This is a short paragraph</p>
+<p class="large small">Schools are institutions designed for the teaching of students under the direction of teachers. They provide a structured environment where children and young adults can learn academic subjects, such as mathematics, science, literature, and history, as well as develop social skills, critical thinking, and other essential life skills. Schools often include extracurricular activities like sports, arts, and clubs, which help in the overall development of students. The ultimate goal of schools is to prepare individuals for higher education, employment, and responsible citizenship.</p>
+
+
+/////DECENDANT COMBINATOR//////
+HTML
+
+<section class="container">
+  <p> <a href="#" >Link</a>insude a paragraph, inside a section with "container" class.
+</p>
+  <a href="#">link inside a section w container class</a>
+</section>
+
+<a href="#">link outside the section.</a>
+
+
+CSS
+
+section a{
+  color:orange;
+}
+
+section p{
+  color:red;
+}
+
+section p a{
+  color:maroon;
+}
+
+.container a {
+  color:gray;
+}
+
+
+////Shorthand and Longhand Syntax/////
+Html
+
+<div class="background"></div>
+
+
+CSS
+.background{
+  width:500px;
+  height:500px;
+  background-color:blue;
+  background-image:url(...);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+} 
